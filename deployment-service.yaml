@@ -29,6 +29,7 @@ metadata: # Metadata of the resource kind we are creating
 spec:
   selector:
     app: boardgame
+  type: NodePort       # <- This is the key line!
   ports:
     - protocol: "TCP"
       port: 8080
