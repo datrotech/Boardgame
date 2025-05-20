@@ -33,5 +33,5 @@ spec:
     - protocol: "TCP"
       port: 8080
       targetPort: 8080 
-  nodePort: 30753   # Choose a port in the range 30000-32767 (you can also omit this to auto-assign)
-  type: NodePort
+      nodePort: 30753   # Choose a port in the range 30000-32767 (you can also omit this to auto-assign)
+
